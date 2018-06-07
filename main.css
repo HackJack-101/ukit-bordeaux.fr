@@ -505,3 +505,12 @@ a.button:hover {
 #firstPanel .semi-container {
     min-height: 310px;
 }
+
+#header-title{
+    flex-grow: 3;
+}
+
+#header-title img{
+    height: 32px;
+    margin-right: 1rem;
+}
