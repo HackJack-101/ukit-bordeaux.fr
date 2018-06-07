@@ -1,0 +1,45 @@
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.upperCase {
+    text-transform: uppercase;
+}
+
+.lowerCase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.semi-container{
+    align-self: center;
+    flex-wrap: wrap;
+}
