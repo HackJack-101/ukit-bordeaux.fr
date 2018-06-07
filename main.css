@@ -207,7 +207,7 @@ header, .false-header {
     top: 0;
     right: 0;
     left: 0;
-    background: #009de0; /* Old browsers */
+    background: #009de0;
     box-shadow: 0 1px 4px rgba(10, 10, 10, 0.18);
     z-index: 1;
 }
