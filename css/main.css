@@ -13,7 +13,7 @@ a, a:visited, a:hover {
     font-weight: 500;
 }
 
-header a, header a:visited, header a:hover, footer a, footer a:visited, footer a:hover {
+header a, header a:visited, header a:hover, footer a, footer a:visited, footer a:hover, .contact a, .contact a:visited, .contact a:hover {
     text-transform: capitalize;
     color: white;
     border-bottom: 2px solid transparent;
@@ -23,7 +23,7 @@ header a {
     font-size: 2em;
 }
 
-#menu a:hover, footer a:hover {
+#menu a:hover, footer a:hover, .contact a {
     color: white;
     border-bottom-color: white;
 }
@@ -250,13 +250,26 @@ video {
     box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
 }
 
-.browser {
+.download {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.contact {
+    padding-top: 3rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact a {
+    font-size: 2em;
+    display: block;
 }
 
 a.button, a.button:visited, a.button:hover {
