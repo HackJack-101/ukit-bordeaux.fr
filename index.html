@@ -8,10 +8,10 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/flex.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -45,6 +45,9 @@
     <div class="top-container wrapper" id="top">
         <div class="false-header"></div>
         <div id="home" class="column split container">
+            <div class="vertical-centered flex1">
+                <img src="assets/iphone6.png" alt="screenshot of the application" id="demo">
+            </div>
             <div class="semi-container flex1">
                 <div id="title">
                     <h1>UKit Bordeaux</h1>
@@ -77,9 +80,6 @@
                     </div>
                 </div>
             </div>
-            <div id="secondPanel" class="vertical-centered semi-container flex1">
-                <img src="assets/iphone6.png" alt="screenshot of the application" id="demo">
-            </div>
         </div>
     </div>
     <div class="wrapper" id="presentation">
@@ -90,7 +90,7 @@
                 <div class="split">
                     <div id="firstAspect" class="feature">
                         <h3 class="text-centered">Navigation optimisée</h3>
-                        <video width="360" height="640"  autoplay="autoplay" loop="loop" muted="muted" id="navVideo">
+                        <video width="360" height="640" autoplay="autoplay" loop="loop" muted="muted" id="navVideo">
                             <source src="assets/navigation.mp4" type="video/mp4">
                         </video>
                         <p>Un affichage quotidien et hebdomadaire avec une navigation fluide.</p>
@@ -114,7 +114,8 @@
                         <video width="360" height="640" autoplay="autoplay" loop="loop" muted="muted" id="favoriteVideo">
                             <source src="assets/search_favorite.mp4" type="video/mp4">
                         </video>
-                        <p>À l'aide de la recherche, on peut facilement retrouver son groupe et l'ajouter en tant que favori pour que l'application s'ouvre directement dessus.</p>
+                        <p>À l'aide de la recherche, on peut facilement retrouver son groupe et l'ajouter en tant que favori pour que
+                            l'application s'ouvre directement dessus.</p>
                     </div>
                     <div id="fifhAspect" class="feature">
                         <h3 class="text-centered">Filtres</h3>
@@ -138,7 +139,7 @@
                 <a href="http://kbdev.io">Site web</a>
             </div>
         </div>
-        <div class="flex row">
+        <div class="flex row flex1">
             <div class="copyright">
                 <span>Copyright © 2018 KBDev - Apache 2 License</span>
             </div>
