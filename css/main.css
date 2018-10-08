@@ -199,14 +199,14 @@ footer .social {
 .split {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: stretch;
 }
 
 video {
     display: block;
-    margin: auto;
+    margin: 0;
 }
 
 .feature {
@@ -214,9 +214,10 @@ video {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 0 2rem;
-    width: 50%;
+    width: 40%;
+    margin-bottom: 2rem;
 }
 
 .feature h3 {
